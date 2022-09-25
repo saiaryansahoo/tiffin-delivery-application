@@ -31,9 +31,7 @@ public class DashboardActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.food_tab);
         viewPager = findViewById(R.id.food_viewpager);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Foods"));     //0
-        tabLayout.addTab(tabLayout.newTab().setText("Drinks"));    //1
-        tabLayout.addTab(tabLayout.newTab().setText("Snacks"));    //2
+        tabLayout.addTab(tabLayout.newTab().setText("COMBOS"));     //0
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final FoodItemAdapter adapter = new FoodItemAdapter(getSupportFragmentManager(), tabLayout.getTabCount());

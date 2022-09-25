@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Food App Demo</string>
+    <string name="SALSIFY">SALSIFY</string>
     <string name="food_for_everyone">Food for Everyone</string>
     <string name="get_started">Get Started</string>
     <!-- TODO: Remove or change this placeholder text -->

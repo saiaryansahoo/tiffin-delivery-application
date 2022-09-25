@@ -1,5 +1,6 @@
 package food.app.demo;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -31,7 +32,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull FoodViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull FoodViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.food_image.setImageResource(list.get(position).food_image);
         holder.food_name.setText(list.get(position).food_name);
         holder.food_price.setText(list.get(position).food_price);
@@ -42,6 +43,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
                 intent.putExtra("food_name", list.get(position).getFood_name());
                 intent.putExtra("food_price", list.get(position).getFood_price());
                 intent.putExtra("food_image", list.get(position).getFood_image());
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
         });

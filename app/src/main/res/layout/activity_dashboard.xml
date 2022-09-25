@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F6F6F9"
+    android:background="#ADD8E6"
     tools:context=".DashboardActivity">
 
     <ImageView
@@ -41,19 +41,20 @@
         app:layout_constraintStart_toStartOf="@+id/food_menu"
         app:layout_constraintTop_toBottomOf="@+id/food_menu" />
 
-    <TextView
+    <EditText
         android:id="@+id/food_search"
         android:layout_width="314dp"
         android:layout_height="60dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/rectangle_background"
-        android:backgroundTint="#EFEEEE"
+        android:backgroundTint="#00FFFF"
         android:drawablePadding="16dp"
         android:fontFamily="@font/nunito_semibold"
         android:gravity="center_vertical"
         android:padding="10dp"
-        android:text="Search..."
-        android:textColor="@android:color/black"
+        android:hint="Search Your Food"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
         android:textSize="17sp"
         app:drawableStartCompat="@drawable/ic_food_search"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +68,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="30dp"
-        android:background="#F6F6F9"
+        android:background="#ADD8E6"
         android:isScrollContainer="true"
         app:layout_constraintEnd_toEndOf="@+id/food_search"
         app:layout_constraintStart_toStartOf="@+id/food_search"

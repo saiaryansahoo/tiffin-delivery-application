@@ -11,11 +11,11 @@
         android:id="@+id/small_logo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/circle_background"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/small_icon"
+        android:src="@drawable/secscreenlogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,7 +41,7 @@
         android:gravity="center"
         android:text="@string/get_started"
         android:textColor="#FF460A"
-        android:textSize="17sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

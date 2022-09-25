@@ -1,5 +1,7 @@
 package food.app.demo;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,16 +36,11 @@ public class FoodsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_foods, container, false);
 
         list = new ArrayList<>();
-        list.add(new FoodItemModel(R.drawable.food_img_1, "Food name 1", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_2, "Food name 2", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_1, "Food name 3", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_2, "Food name 4", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_1, "Food name 5", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_2, "Food name 6", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_1, "Food name 7", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_2, "Food name 8", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_1, "Food name 9", "Rs: Food price"));
-        list.add(new FoodItemModel(R.drawable.food_img_2, "Food name 10", "Rs: Food price"));
+        list.add(new FoodItemModel(R.drawable.food_img_1, "VEG LUNCH", "Rs: 179"));
+        list.add(new FoodItemModel(R.drawable.food_img_2, "NON-VEG LUNCH ", "Rs: 239"));
+        list.add(new FoodItemModel(R.drawable.food_img_1, "VEG DINNER", "Rs: 189"));
+        list.add(new FoodItemModel(R.drawable.food_img_1, "NON-VEG DINNER", "Rs: 249"));
+
 
         recyclerView = view.findViewById(R.id.food_recycler);
         foodAdapter = new FoodAdapter(list, getActivity().getApplicationContext());

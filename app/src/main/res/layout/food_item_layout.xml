@@ -60,7 +60,7 @@
             android:maxLines="2"
             android:text="@string/food_name"
             android:textColor="@android:color/black"
-            android:textSize="22sp"
+            android:textSize="15dp"
             app:layout_constraintBottom_toTopOf="@+id/food_price"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

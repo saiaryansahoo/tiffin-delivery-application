@@ -30,7 +30,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/name_txt"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:hint="Name"
                     app:hintAnimationEnabled="true"
                     app:hintTextColor="@color/colorPrimary" />
@@ -55,22 +55,6 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/phone_txt"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Phone"
-                    android:inputType="phone"
-                    app:hintAnimationEnabled="true"
-                    app:hintTextColor="@color/colorPrimary" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 app:counterMaxLength="6"
                 app:passwordToggleEnabled="true">
@@ -78,7 +62,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/password_txt"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:hint="Password"
                     android:inputType="textPassword"
                     app:hintAnimationEnabled="true"
