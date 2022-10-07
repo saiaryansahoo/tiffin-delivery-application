@@ -1,5 +1,5 @@
 <resources>
-    <string name="SALSIFY">SALSIFY</string>
+    <string name="tiffun">TIFFUN</string>
     <string name="food_for_everyone">Food for Everyone</string>
     <string name="get_started">Get Started</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -15,4 +15,5 @@
     <string name="no_internet_txt">Your internet connection is currently \n not available please check or try again.</string>
     <string name="try_again">Try Again</string>
     <string name="total_items">Items Total</string>
+    <string name="todo">TODO</string>
 </resources>
