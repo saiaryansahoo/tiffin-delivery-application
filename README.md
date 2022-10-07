@@ -1,4 +1,2 @@
-Hlo peeps!
-This is our project based on Tiffin Delivery System.
-
-#vitians
+Hello!
+This is a project based on tiffin delivery.
